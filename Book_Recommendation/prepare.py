@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-    Author: Thinkgamer
+    Author: Wjj
     Desc: 数据预处理
 """
 import pandas

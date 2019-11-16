@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    Author: Thinkgamer
+    Author: Wjj
     Desc: 训练模型
 """
 import random
