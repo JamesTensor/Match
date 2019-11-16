@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 import os
 import sys
+"""
+作者：Wjj
+2019-11-16
+"""
+
 
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BookRec.settings')
