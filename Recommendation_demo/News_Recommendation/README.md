@@ -23,11 +23,6 @@
 - 修改 NewsRecSys/NewsRec-Vue/src/assets/js/linkBase.js 中的 serverUrl
 - 进入 NewsRecSys/NewsRec 执行python manage.py runserver 0.0.0.0:8000
 - 进入 NewsRecSys/NewsRec-Vue 执行npm install /  npm run dev
-- 浏览器输入 http://127.0.0.1:8001 访问
-
-## 相关说明
-- 后台访问地址：http://127.0.0.1:8000/admin/  (admin，admin)
-- Navicat 破解版 （链接：https://pan.baidu.com/s/1dYtKQxnoSZywuRfgCOfPRQ  提取码：qw8k） 
-
+- 浏览器输入 http://127.0.0.1:8001 访问 
 
 -----
