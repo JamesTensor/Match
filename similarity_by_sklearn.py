@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-
 from sklearn.externals.joblib import Memory
 from sklearn.datasets import load_svmlight_file
 from sklearn.metrics import jaccard_similarity_score
