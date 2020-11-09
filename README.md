@@ -1,18 +1,26 @@
-## 分享一下我掌握的几个推荐算法。
-
-目录：
+## 分享几个常用的召回推荐算法
 
 1、userbased_CF
 
 2、itembased_CF
 
-3、基于标签进行推荐
+3、基于标签的推荐
 
-……..
+4、LFM
+
+5、热门召回
 
 
 
-## 音乐推荐系统分享
+## 封装了几个常用推荐功能
+
+Class_for_Recommendation
+
+
+
+## 在音乐/书籍/新闻公开数据集上跑了一下
+
+音乐推荐为例：
 
 1、Music  model_training and evaluation.ipynb
 
@@ -34,6 +42,3 @@
 
 
 
-## 两个自定义推荐包
-
-Class_for_Recommendation
