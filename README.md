@@ -1,22 +1,22 @@
 ## 分享几个常用的召回推荐算法
 
-1、userbased_CF
+1、Word2Vec计算物品相似度，我实际工作中也用它来计算两个菜肴之间的搭配度。
 
-2、itembased_CF
+2、GNN，请关注我的另一个仓库：https://github.com/jiajiewang0326/KG_Based_Recommendation_with_GNNs
 
-3、基于标签的推荐
+3、userbased_CF
 
-4、LFM
+4、itembased_CF
 
-5、热门召回
+5、热门召回。统计指定时间窗口的item的曝光量，点击量，从而计算CTR，按照CTR排序，选出topK个。因为涉及商业保密就不贴代码了。
 
-6、基于地域、时间等推荐。此方式在Boohee业务应用中反馈不错，特别是冷启动和重排中，因为其中的规则涉及商业保密就不展开。
+6、基于地域、时间等推荐。此方式在Boohee业务应用中反馈不错，获得了一些收益。因为其中的规则涉及商业保密就不贴代码了。
 
-7、GNN，另一个
+7、内容介绍、评论等文本主题提取作为一路召回。
 
-8、评论、内容介绍等文本分类作为一路召回。
+8、基于标签的推荐
 
-
+9、LFM
 
 
 
@@ -28,27 +28,5 @@ Class_for_Recommendation
 
 
 
-## 在音乐/书籍/新闻公开数据集上跑了一下
-
-音乐推荐为例：
-
-1、Music  model_training and evaluation.ipynb
-
-数据获取，数据清洗 ；协同过滤模型训练；模型评估
-
-练习案例：Movie recomandation model_training and evaluation
-
-2、Model dump and load.ipynb
-
-模型储存和加载
-
-3、Music sequence modelling.ipynb
-
-得到歌曲之间的相似度和推荐集
-
-4、Music demo.ipynb
-
-简单demo
-
-
+一部分数据集太大，可以自行下载：[http://grouplens.org/datasets/movielens/1m)](http://grouplens.org/datasets/movielens/1m)
 
